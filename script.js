@@ -44,3 +44,20 @@ function addStartValueArray(a) {
 }
 
 console.log(addStartValueArray([1, 2, 3]))
+
+// Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5].
+arr = [1, 2, 3, 4, 5]
+arr.splice(1, 2)
+console.log(arr)
+
+//  Дан объект {js:'test', jq: 'hello', css: 'world'}. Получите массив его ключей.
+let obj = {
+    js: 'test',
+    jq: 'hello',
+    css: 'world'
+}
+console.log(Object.keys(obj))
+
+// Напишите код, который преобразовывает и объединяет все элементы массива в одно строковое значение. Элементы массива будут разделены запятой. ['Капуста', 'Репа', 'Редиска', 'Морковка']
+let vegetables = ['Капуста', 'Репа', 'Редиска', 'Морковка']
+console.log(vegetables.join(', '))
